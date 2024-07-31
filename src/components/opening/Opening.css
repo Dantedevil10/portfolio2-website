@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Sony';
+    src: url('../../assets/fonts/Sony_Sketch_EF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#f{
+    min-height: 100vh;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sony', sans-serif;
+}
+#f p{
+    font-size: 1.3rem;
+}
+#f p ,#f h1{
+    opacity: 0;
+}
+
+/* Opening.css */
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+#f h1, #f p {
+animation: fadeInOut 8s ease-in-out;
+}
+  

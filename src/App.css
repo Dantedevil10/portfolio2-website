@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+}
+
+
+#pd{
+  background: black;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* App.css */
+.opening-enter {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0); /* Cor de fundo inicial transparente */
+}
+
+.opening-enter-active {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo final durante a entrada */
+  transition: opacity 1000ms, background-color 1000ms;
+}
+
+.opening-exit {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo inicial durante a saída */
+}
+
+.opening-exit-active {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 1); /* Cor de fundo final ao desaparecer */
+  transition: opacity 1000ms, background-color 1000ms;
+}
+
+
+.main-enter {
+  opacity: 0;
+}
+.main-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+.main-exit {
+  opacity: 1;
+}
+.main-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-in;
+}

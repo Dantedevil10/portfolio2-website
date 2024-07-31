@@ -1,0 +1,157 @@
+#f-m{
+    min-width: 100%;
+    min-height: 100vh;
+    /* background: #1a1a1a; */
+    background: url('../../assets/images/bNuQiq.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.bt{
+    color: white;
+    padding-top: 50px;
+    display: flex;
+    margin-left: 50px;
+}
+.bt div {
+    display: inline-block;
+    border-radius: 50%;
+    transition: background 1.0s ease;
+    background: transparent;
+}
+.bt div:hover {
+    background: radial-gradient(circle, #6f00ffb1 0%, rgba(0, 0, 0, 0) 90%);
+}
+.bt div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.ic{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.tc{
+    display: flex;
+    gap: 20px;
+    list-style-type: none; 
+}
+
+.oc{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.ob{
+   margin-top: 50px; 
+   margin-left: 100px; 
+   font-size: 2rem;
+}
+.te{
+    margin-left: 50px;
+}
+
+
+.it{
+    border-radius: 5px;
+    width: 480px;
+    padding-left: 40px;
+}
+.it img{
+    border-radius: 5px;
+}
+.it div{
+    border: 1px solid transparent;
+    border-top: none;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all ease 0.2s;
+}
+.it div:hover{
+    border: 1px solid white;
+    background-color: #0f0f0f;
+    border-top: none;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.it h1 , p{
+    padding: 10px;
+}
+
+
+.ee{
+    padding-top: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+
+
+.aa{
+    padding-top: 100px;
+}
+
+.o{
+    margin-left: 120px;
+    font-size: 2.5rem;
+    color: #1a1a1a; /* Cor do texto */
+    text-shadow: 1px 1px 0 #FFF, -1px 1px 0 #FFF,1px -1px 0 #FFF, -1px -1px 0 #FFF; /* Cor da borda */
+}
+.o h1:nth-of-type(2){
+    margin-left: 150px;
+    position: relative;
+    top: -30px;
+}
+
+
+.tt{
+    font-size: 30px;
+    padding-top: 70px;
+    padding-left: 150px;    
+}
+.tt p{
+    font-size: 18px;
+    color: #ffffff89;
+}
+
+
+.email{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid white;
+    width: 380px;
+    cursor: pointer;
+}
+.email span{
+    text-align: center;
+    padding-top: 10px;
+    width: 60px;
+    height: 50px;
+    border-right: 2px solid white;
+}
+
+
+footer p{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+footer div{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.637);
+
+}
