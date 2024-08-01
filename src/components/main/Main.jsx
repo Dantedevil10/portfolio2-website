@@ -19,6 +19,7 @@ import Fym from '../../assets/images/ProjectsCover/photop.png'
 import Cdi from '../../assets/images/ProjectsCover/CDI.png'
 import Hgame from '../../assets/images/ProjectsCover/ha.jfif'
 
+
 function Main(){
 
     const handleEmailClick = () => {

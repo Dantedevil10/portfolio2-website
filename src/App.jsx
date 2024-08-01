@@ -17,17 +17,17 @@ function App() {
 
 
   return (
-    <div id='pd'>
+    <div className='pd'>
       {<CSSTransition
         in={open}
-        timeout={10} // duração da transição em milissegundos
+        timeout={1000} // duração da transição em milissegundos
         classNames="opening"
         unmountOnExit>
         <Opening />
       </CSSTransition>}
       {<CSSTransition
         in={!open}
-        timeout={1000}
+        timeout={2000}
         classNames="main"
         unmountOnExit>
         <Main />

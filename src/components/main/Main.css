@@ -1,9 +1,12 @@
 #f-m{
-    min-width: 100%;
     min-height: 100vh;
     background: #1a1a1a;
 }
 
+
+.background-fixed {
+    background-attachment: fixed;
+}
 
 .degrade{
     background: linear-gradient(#1a1a1a00,#1a1a1a00,#1a1a1a00,#1a1a1a);
@@ -13,9 +16,10 @@
 .ie{
     background: url('../../assets/images/bNuQiq.gif');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: cover; 
+    /* background-attachment: fixed; */
+    min-height: 100vh;
 }
 
 .bt{
@@ -106,7 +110,7 @@
 
 
 .aa{
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .o{
