@@ -1,13 +1,21 @@
 #f-m{
     min-width: 100%;
     min-height: 100vh;
-    /* background: #1a1a1a; */
+    background: #1a1a1a;
+}
+
+
+.degrade{
+    background: linear-gradient(#1a1a1a00,#1a1a1a00,#1a1a1a00,#1a1a1a);
+    padding-bottom: 300px;
+}
+
+.ie{
     background: url('../../assets/images/bNuQiq.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 
 .bt{

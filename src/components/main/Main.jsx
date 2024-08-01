@@ -35,28 +35,32 @@ function Main(){
 
     return (
     <div id='f-m'>
-        <header>
-            <div className='bt'>
-                <div>
-                    <a href='https://www.linkedin.com/in/victor-henrique-5ab953296'><FaLinkedin size={40}/></a>
+        <section className='ie'>
+            <div className='degrade'>
+                <header>
+                    <div className='bt'>
+                        <div>
+                            <a href='https://www.linkedin.com/in/victor-henrique-5ab953296'><FaLinkedin size={40}/></a>
+                        </div>
+                        <div>
+                            <a href='https://github.com/Dantedevil10'><FaGithub size={40}/></a>
+                        </div>     
+                    </div>
+                </header>
+                <div className='tt'>
+                    <h1> I'm a Software Developer <br /></h1>
+                    <h1>and Freelance Worker</h1><br />
+                    <p>My name is Victor, but you can also call me Dante, which is my professional name. <br/>
+                    I am a software developer, including web and apps for Android or PC.<br/>
+                    I also work as a freelancer and strive to do good work.
+                    And I also like developing games.</p>
                 </div>
-                <div>
-                    <a href='https://github.com/Dantedevil10'><FaGithub size={40}/></a>
-                </div>     
+                <div className='email'>
+                    <span><MdEmail size={35}/></span>
+                    <p onClick={handleEmailClick}>dantecontatodev@gmail.com</p>Click To Copy! 
+                </div>
             </div>
-        </header>
-        <div className='tt'>
-            <h1> I'm a Software Developer <br /></h1>
-            <h1>and Freelance Worker</h1><br />
-            <p>My name is Victor, but you can also call me Dante, which is my professional name. <br/>
-            I am a software developer, including web and apps for Android or PC.<br/>
-            I also work as a freelancer and strive to do good work.
-            And I also like developing games.</p>
-        </div>
-        <div className='email'>
-            <span><MdEmail size={35}/></span>
-            <p onClick={handleEmailClick}>dantecontatodev@gmail.com</p>Click To Copy! 
-        </div>
+        </section>
         <div className='aa'>
             <div className='o'>
                 <h1>Projects &</h1>
